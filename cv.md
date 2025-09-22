@@ -16,3 +16,30 @@ I am responsible and able to work on several things at once.
 
 ### My skils:
 I know and can use HTML, CSS, SCSS, and basic JavaScript.
+
+### My code:
+> <pre lang="markdown"> window.addEventListener('DOMContentLoaded', () => {
+>  const savedName = localStorage.getItem('userName');
+>  if (savedName && savedName.trim() !== '') {
+>    userName = savedName;
+>    entrance.classList.remove('entrance--open');
+>    updateCharacterName(); 
+>  } 
+>  else {
+>    entrance.classList.add('entrance--open');
+>    button.disabled = true; 
+>  }
+>  if (savedName) {
+>    input.value = savedName;
+>    button.disabled = userName === '';
+>  }
+>});
+>  }); </pre>
+
+### Work experience:
+[createx](https://github.com/Oksi2510/OksanaPractic)  
+[auto](https://github.com/Oksi2510/auto)   
+[museum](https://rolling-scopes-school.github.io/oksi2510-JSFEPRESCHOOL2025Q2/museum/)   
+[game](https://Oksi2510.github.io/not-fight-club/) 
+
+
